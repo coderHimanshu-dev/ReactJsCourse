@@ -13,7 +13,7 @@ const App = () => {
     {/* <ArrayObject /> */}
     {/* <Object /> */}
     {/* <RandomNumberGen /> */}
-    <Counter />
+    {/* <Counter /> */}
     <hr />
     <TodoList />
     </div>
