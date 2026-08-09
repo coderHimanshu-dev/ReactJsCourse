@@ -6,6 +6,7 @@ import Object  from './Object'
 import RandomNumberGen from './RandomNumberGen'
 import Counter from './example/Counter'
 import TodoList from './example/TodoList'
+import Profile from './example/Profile'
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
     {/* <RandomNumberGen /> */}
     {/* <Counter /> */}
     <hr />
-    <TodoList />
+    {/* <TodoList /> */}
+     <Profile />
     </div>
   )
 }
