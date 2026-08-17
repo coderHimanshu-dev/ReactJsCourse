@@ -1,7 +1,7 @@
 .sidebar-title {
   font-size: 22px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .sidebar-items {
@@ -12,7 +12,7 @@
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;

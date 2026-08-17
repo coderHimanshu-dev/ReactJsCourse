@@ -1,33 +1,19 @@
-import './Category.css'
+import Input from "../../components/Input";
+import "./Category.css";
 const Category = () => {
   return (
     <>
-    <h2 className="sidebar-title">Category</h2>
 
-    <div>
-      <label  className="sidebar-label-container">
-        <input type="radio" name="test"/>
-        <span className="checkmark"></span>All
-      </label>
-      <label  className="sidebar-label-container">
-        <input type="radio" name="test"/>
-        <span className="checkmark"></span>Sneakers
-      </label>
-      <label  className="sidebar-label-container">
-        <input type="radio" name="test"/>
-        <span className="checkmark"></span>Flats
-      </label>
-      <label  className="sidebar-label-container">
-        <input type="radio" name="test"/>
-        <span className="checkmark"></span>Sandles
-      </label>
-      <label  className="sidebar-label-container">
-        <input type="radio" name="test"/>
-        <span className="checkmark"></span>Heels
-      </label>
-    </div>
+      <div>
+      <h2 className="sidebar-title">Category</h2>
+        <Input name="All" />
+        <Input name="Sneakers" />
+        <Input name="Flats" />
+        <Input name="Sandles" />
+        <Input name="Heels" />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Category
+export default Category;
